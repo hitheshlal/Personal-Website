@@ -36,7 +36,7 @@ header{
     height: 55px;
     background: transparent;
     border:2px solid rgb(152, 230, 142);
-    color:rgb(152, 230, 142) ;
+    color:rgb(152, 230, 142);
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -94,7 +94,7 @@ nav .nav-list li.btn a{
 
 }
 nav .nav-list li.btn:hover a{
-    background:rgb(152, 230, 142) ;
+    background:rgb(152, 230, 142);
     border: 2px solid transparent;
     color: white;
     transition: .4s;
@@ -196,6 +196,43 @@ span{
         transform: rotate(40deg);
         top:0;
     }
+    nav .nav-list{
+        position:absolute;
+        top: 90px;
+        right: -65%;
+        bottom: 0;
+        width: 60%;
+        height: 50%;
+        background: black;
+        z-index: 2;
+        padding: 6% 5%;
+        transition: .3 right;
+        border-radius: 10px;
+    }
+    nav .nav-list li{
+        display: block;
+    }
+    nav .nav-list li a{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-right: 0 ;
+        margin-bottom: 40px;
+
+    }
+    nav .nav-list li.btn a{
+        position: absolute;
+        bottom: 0%;
+        right: 20%;
+        left: 20%;
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    nav .nav-list .open{
+        right: 0;
+    }
+
 }
 
 
