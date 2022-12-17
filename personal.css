@@ -49,7 +49,7 @@ nav .humb{
     right: 3%;
     top:60px;
     z-index: 5;
-    background: white;
+    background: rgb(174, 88, 88);
     position: absolute;
     cursor: pointer;
     display: none;
@@ -59,7 +59,7 @@ nav .humb span{
     background: rgb(152, 230, 142);
     width: 100%;
     height: 3px;
-    transition: 3s;
+    transition: 3 s;
     transition-property: transform , opacity;
 }
 nav .humb span:nth-child(2){
@@ -113,7 +113,7 @@ nav .nav-list li.btn:hover a{
     margin: 20px 0px 20px;
 }
 span{
-    color: rgb(152, 230, 142);
+    color: rgb(232, 206, 60);
 }
 .container .hero-text h3{
     color: #fff;
@@ -174,8 +174,8 @@ span{
     letter-spacing: 2px;
     font-size: 15px;
 }
-@media screen and (max-width: 930px){
-    nav.hamp{
+@media  screen and (max-width: 930px) {
+    nav .hump{
         display: initial;
     }
     .click{
