@@ -43,26 +43,26 @@ header{
     justify-content: center;
     cursor:pointer;
 }
-nav .humb{
+nav .hump{
     width: 35px;
     height: 24px;
     right: 3%;
     top:60px;
     z-index: 5;
-    background: rgb(174, 88, 88);
+    background: transparent;
     position: absolute;
     cursor: pointer;
     display: none;
 }
-nav .humb span{
+nav .hump span{
     display: block;
     background: rgb(152, 230, 142);
     width: 100%;
     height: 3px;
-    transition: 3 s;
-    transition-property: transform , opacity;
+    transition: .3s;
+    transition-property: transform,opacity;
 }
-nav .humb span:nth-child(2){
+nav .hump span:nth-child(2){
     margin: 7px 0;
 }
 nav .nav-list{
@@ -94,7 +94,7 @@ nav .nav-list li.btn a{
 
 }
 nav .nav-list li.btn:hover a{
-    background:rgb(152, 230, 142);
+    background:rgb(124, 235, 110);
     border: 2px solid transparent;
     color: white;
     transition: .4s;
@@ -140,29 +140,29 @@ span{
     color: #fff;
     cursor: pointer;
     margin-right: 20px;
-    background-color:rgb(152, 230, 142);
+    background-color:rgb(124, 235, 110);
     margin-bottom:35px;
 }
 .social a:hover{
     transform: scale(1.1);
-    background-color: rgbargb(152, 230, 142);
+    background-color: rgbargb(124, 235, 110);
     transition: 0.4s;
 }
 .container .hero-text button{
     color: #fff;
-    background-color: rgb(152, 230, 142);
+    background-color: rgb(124, 235, 110);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     padding: 8px 30px;
-    border: 2px solid rgb(152, 230, 142);
+    border: 2px solid rgb(124, 235, 110);
     border-radius: 30px;
     cursor: pointer;
 }
 .container .hero-text button:hover{
     background: transparent;
-    border:2px solid rgb(152, 230, 142);
-    color: rgb(152, 230, 142);
+    border:2px solid rgb(124, 235, 110);
+    color: rgb(124, 235, 110);
     transition: 0.4s;
 }
 .bottom{
@@ -174,6 +174,8 @@ span{
     letter-spacing: 2px;
     font-size: 15px;
 }
+
+
 @media  screen and (max-width: 930px) {
     nav .hump{
         display: initial;
@@ -186,15 +188,15 @@ span{
         margin-top: 12px;
     }
     .click span:first-child{
-        transform: rotate(-45deg);
+        transform: rotate(-40deg);
     }
     .click span:nth-child(2){
         opacity: 0;
         margin: 0;
     }
-    .click span:nth-child{
+    .click span:last-child{
         transform: rotate(40deg);
-        top:0;
+        top: 0;
     }
     nav .nav-list{
         position:absolute;
@@ -203,10 +205,10 @@ span{
         bottom: 0;
         width: 60%;
         height: 50%;
-        background: black;
+        background: transparent;
         z-index: 2;
-        padding: 6% 5%;
-        transition: .3 right;
+        padding: 6% 9%;
+        transition: .3s right;
         border-radius: 10px;
     }
     nav .nav-list li{
@@ -229,7 +231,7 @@ span{
         padding: 7px 15px;
         font-size: 14px;
     }
-    nav .nav-list .open{
+    nav .nav-list.open{
         right: 0;
     }
 
