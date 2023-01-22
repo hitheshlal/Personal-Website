@@ -7,6 +7,7 @@
 }
 .body{
     overflow-x: hidden;
+    
 }
 .main-box{
     width: 1280px;
@@ -18,15 +19,125 @@
     width: 100%;
     height: 100%;
     min-width: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+    background: linear-gradient(rgba(179, 72, 72, 0.5), rgba(8, 7, 7, 0.5) );
     background-size: cover;
     background-position: center;
     position:relative;
+    
 }
 header{
+    width: 1280px;
     padding: 40px 0px 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+    
+    
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background: transparent;
+    border: 2px solid rgb(152, 230, 142);
+    color: rgb(152, 230, 142);
+    border-radius: 50%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.name{
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    color:rgb(152, 230, 142) ;
+    background: transparent;
+    border: 2px solid rgb(152, 230, 142);
+    cursor: pointer;
+
+}
+nav .nav-list{
+    margin-left: 300px;
+    color:rgb(152, 230, 142);
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list a{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+nav .nav-list li a:hover{
+    color: rgb(152, 230, 142);
+    transition: .4s;
+}
+.body{
+    width: 40%;
+    height: 40%;
+    border: 2px solid transparent;
+    margin: 20px;
+    margin-top:50px;
+    
+}
+.label{
+    
+    margin: 15px;
+    padding-left: 150px;
+    padding-top:10px;
+    
+    
+}
+.body .label .in_bar{
+    width: 500px;
+    height: 35px;
+}
+
+.body .mess_bar{
+    line-height: 7;
+    width: 500px;
+}
+.body .btn{
+    width: 75px;
+    height: 35px;
+    background-color: rgb(152, 230, 142);
+    border: 2px solid rgb(152, 230, 142);
+    margin-left:22%;
+    margin-top: 20px;
+}
+.body .mess_first{
+     font-size: 30px;
+}
+.body .mess_second{
+    color:aliceblue
+}
+.body .mess_full{
+    width: 500px;
+    border: 2px solid transparent;
+    margin-left: 22%;
+    
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+.wiki{
+    width: 40%;
+    height: 40%;
+    float:left;
+    border: 2px solid black;
+}
+.full_body{
+    width: 100%;
 }
